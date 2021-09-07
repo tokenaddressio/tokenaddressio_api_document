@@ -24,7 +24,7 @@
   token options : btc、eth、trx、ltc、etc、bch、bsc、heco、okt、usdt_erc20、usdt_trc20、usdt_omni、matic、doge、bnb、eos、neo、bsv、vet、atom、xlm、waves、xrp、ont
 
   # request Example
-  GET https://www.tokenwallet.one/create/btc
+  GET https://www.tokenaddress.io/create/btc
 
 ## Return Parameters
     ParameterName         ParameterType	  Description
