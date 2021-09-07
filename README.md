@@ -1,6 +1,8 @@
-# tokenaddressio_api_document
+## tokenaddressio_api_document
 
-###  service:   Universal token address generator
+####  service:   Universal token address generator
+
+##### update:  Util September 2021, tokenaddress.io has created a total of 17.6 million wallets
 
 #### website:   https://tokenaddress.io
 
@@ -16,20 +18,21 @@
   
 ## Generate Token Address And Private Key
 
-  GET   /create/<symbol>
+  GET    /create/< token>
 
-  **symbol options : btc、eth、trx、ltc、etc、bch、bsc、heco、okt、usdt_erc20、usdt_trc20、usdt_omni、matic、doge、bnb、eos、neo、bsv、vet、atom、xlm、waves、xrp、ont **
+
+  token options : btc、eth、trx、ltc、etc、bch、bsc、heco、okt、usdt_erc20、usdt_trc20、usdt_omni、matic、doge、bnb、eos、neo、bsv、vet、atom、xlm、waves、xrp、ont
 
   # request Example
-  get https://www.tokenwallet.one/create/btc
+  GET https://www.tokenwallet.one/create/btc
 
 ## Return Parameters
     ParameterName         ParameterType	  Description
-    state                 String			  state value: success 、error
-    code                  String        state code
-    symbol                String			  symbol
-    addr                  String			  wallet address
-    privateKey            String			  wallet private key
+    state                 String	    state value: success 、error
+    code                  String      state code
+    symbol                String	    symbol
+    addr                  String	    wallet address
+    privateKey            String	    wallet private key
 
 ## state code
     code      description
