@@ -6,7 +6,7 @@
 
 #### website:   https://tokenaddress.io
 
-#### twitter:   https://twitter.com/tokenaddress_io
+#### twitter:   https://twitter.com/tokenaddressio
 
 #### supported token list: BTC、ETH、TRX、LTC、ETC、BCH、BSC、HECO、OKT、USDT(ERC20、TRC20、OMNI)、MATIC、DOGE、BNB、EOS、NEO、BSV、VET、ATOM、XLM、WAVES、XRP、ONT
 
